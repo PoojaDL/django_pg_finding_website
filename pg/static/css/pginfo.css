@@ -1,0 +1,96 @@
+.carousel-item{
+  height: 500px;
+  width:800px;
+  background-size: contain;
+}
+
+.pg-info{
+  margin: 100px 0px;
+}
+
+.pg-info h2{
+  display: inline-block;
+}
+
+.booking-btn{
+  margin-left: 100px;
+}
+
+.property-amenities{
+  background-color: #f0f0f0;
+}
+
+h2{
+  padding: 50px 0px;
+
+}
+
+.rating-criteria {
+    margin: 28px 0px;
+}
+
+.rating-criteria-icon {
+    width: 14px;
+}
+
+.rating-criteria-text {
+    margin-left: 8px;
+}
+
+.rating-criteria-star-container {
+    margin-top: -2px;
+}
+
+.rating-criteria-star-container i {
+    color: #00ff00;
+    font-size: 12px;
+}
+
+.rating-circle {
+    background-color:#186611;
+    color: white;
+    text-align: center;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding-top: 32px;
+    margin: auto;
+}
+
+.total-rating {
+    font-size: 40px;
+}
+
+.rating-circle-star-container {
+    font-size: 12px;
+}
+
+.page-container{
+  padding:0px 50px;
+}
+
+.footer-section{
+  width:100%;
+  margin: 0;
+  color:white;
+  background-color: black;
+  padding:20px;
+}
+
+.logo-box{
+  position: relative;
+  left:80%;
+  display: inline-block;
+  bottom:100px;
+}
+
+.amenity-container{
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box{
+  padding-left: 200px;
+  padding-right: 200px;
+}

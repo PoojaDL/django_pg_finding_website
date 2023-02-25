@@ -1,0 +1,76 @@
+body{
+  margin:0;
+}
+
+.navbarItems{
+  padding:0 10px;
+}
+
+.search-bar{
+  width:70%;
+  margin-left:12%;
+  margin-top:5%;
+}
+
+.city-section{
+  padding: 50px 0px;
+}
+
+.areas-section{
+  padding: 20px 20px;
+}
+
+.area-btn{
+  border-radius: 10px;
+  padding:5px 10px;
+  margin:10px 15px;
+}
+
+.area-heading{
+  margin:40px 10px;
+  padding: 0px;
+}
+
+.pg-container{
+  background-color: lightgrey;
+  padding: 50px 0px;
+}
+
+.pg-info{
+  background-color: white;
+  position: relative;
+  top:50px;
+  padding: 30px 50px;
+  margin-bottom: 20px;
+
+}
+
+.pg-image{
+  margin:20px;
+  float:left;
+}
+
+.pg-subinfo{
+  float:left;
+  padding: 20px 50px;
+
+}
+
+.pg-heading{
+  color: white;
+}
+
+.footer-section{
+  width:100%;
+  margin: 0;
+  color:white;
+  background-color: black;
+  padding:20px;
+}
+
+.logo-box{
+  position: relative;
+  left:80%;
+  display: inline-block;
+  bottom:100px;
+}

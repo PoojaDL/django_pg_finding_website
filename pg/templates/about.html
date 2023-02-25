@@ -1,0 +1,115 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>FeelHome</title>
+  <link rel="stylesheet" href="{% static 'css/about.css' %}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body>
+
+  <!-- navbar section  -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 p-0">
+        <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+          <div class="container-fluid">
+            <div class="brand-name">
+               <a href="{% url 'home' %}" class="navbar-brand "><h1 class="px-2"style="display:inline-block; ">FeelHome</h1></a>
+
+            </div>
+            <div class="">
+              <ul class="navbar-nav">
+                <li class="navbarItems nav-item"><a href="{% url 'home' %}" class="nav-link">Home</a></li>
+                <li class="navbarItems nav-item"><a href="{% url 'cities' %}" class="nav-link">Find PG</a></li>
+                <li class="navbarItems nav-item"><a href="{% url 'pgOwner' %}" class="nav-link ">PG Owner</a></li>
+                <li class="navbarItems nav-item"><a href="{% url 'about' %}" class="nav-link active">About Us</a></li>
+                  
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!-- about section-->
+
+
+  <div class="container px-5">
+    <div class="about-section">
+      <div class="box1 p-5">
+        <h1>About Us</h1>
+        <p class="about-para pt-3  m-0 p-0">Lorem ipsum Etiam, pellentesque porttitor iaculis mi nisi. Sociis habitasse nibh semper fringilla rutrum cubilia dis rutrum fames. Magna facilisis laoreet tristique cum iaculis rhoncus eleifend feugiat velit posuere.
+          Montes adipiscing magna
+          consequat montes ipsum scelerisque potenti justo non semper. Sem potenti lobortis maecenas in ligula hendrerit platea ipsum. Dapibus urna arcu aenean facilisi laoreet felis taciti id orci. Molestie; enim faucibus penatibus platea ac conubia
+          mus. Nibh, id viverra leo phasellus turpis suspendisse inceptos laoreet. Tincidunt eros gravida hendrerit justo ullamcorper. Dignissim mollis magna id, mi mauris in volutpat eros.</p>
+      </div>
+    </div>
+    <div class="about-section">
+      <div class="row box2 pt-5 pb-3 px-5">
+        <div class="col-md-4">
+          <img src="{% static 'image/home/who.avif' %}" alt="" width="300px" height="300px">
+        </div>
+        <div class="col-md-8">
+          <h1>Who we are?</h1>
+          <p class="about-para pt-3 m-0 p-0">Interdum natoque lorem blandit. Diam ornare duis penatibus risus risus curabitur. Pulvinar consectetur urna lacus dignissim. Aliquet egestas est felis rhoncus nullam felis. Laoreet sapien dis feugiat vehicula sit
+            quisque libero facilisi laoreet sit. Lobortis donec ac curae; litora diam. Tempus adipiscing ipsum mauris non sociis proin imperdiet rutrum. Quam tincidunt praesent molestie tempus felis. Praesent vestibulum nullam id suscipit conubia
+            justo dignissim volutpat et. justo non semper. Sem potenti lobortis maecenas in ligula hendrerit platea ipsum. Dapibus urna arcu aenean facilisi laoreet felis taciti id orci. Molestie; enim faucibus penatibus platea ac conubia
+            mus.
+        </div>
+      </div>
+    </div>
+    <div class="about-section">
+      <div class="row box3 pt-5 pb-5 px-5">
+        <div class="col-md-8">
+          <h1>Our Aim</h1>
+          <p class="about-para pt-3 m-0 p-0">Ante facilisi morbi convallis. Netus ornare auctor sollicitudin volutpat ante quisque proin justo. Ultricies pellentesque quam consectetur eleifend ante interdum! Tempor venenatis mi sodales quis consequat molestie velit
+            magna risus. Ornare facilisis metus orci iaculis etiam molestie cursus, ac platea venenatis. Faucibus ipsum sagittis turpis nam placerat. Feugiat inceptos luctus fermentum libero? Aptent suscipit quisque diam convallis ultrices nisi
+            sociosqu imperdiet? Fermentum mauris sociosqu eros, bibendum phasellus imperdiet. id viverra leo phasellus turpis suspendisse inceptos laoreet. Tincidunt eros gravida hendrerit justo ullamcorper. Dignissim mollis magna id, mi mauris in
+            volutpat eros.</p>
+        </div>
+        <div class="col-md-4 px-5p-0">
+          <img src="{% static 'image/home/aim.avif'%}" alt="" width="300px" height="300px">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer section-->
+  <div class=" footer-section container-fluid px-5 pt-5 pb-0" >
+    <div class="m-0 p-0 contact-box">
+      <h3>For more Info</h3>
+
+      <h5>Contact Me</h5>
+      <p><b>Pooja DL</b> </p>
+
+      <p>Mysore,Karnataka</p>
+      <p><b>poojadl2002@gmail.com</b></p>
+
+    </div>
+
+    <div class="logo-box ">
+      <h5>Let's connect with</h5>
+      <a href="https://www.linkedin.com/in/pooja-dl-23267a218/"><img class="logos" src="{% static 'image/logos/linkedin.png' %}" alt="linkedIn-logo" width="40px" height="40px"></a>
+      <a href=""><img class="logos" src="{% static 'image/logos/gmail.png' %}" alt="gmail-logo" width="40px" height="40px"></a>
+      <a href="https://github.com/PoojaDL"><img class="logos" src="{% static 'image/logos/github.png' %}" alt="github-logo" width="40px" height="40px"></a>
+      <a href="https://www.instagram.com/poojadl02/"><img class="logos" src="{% static 'image/logos/instagram.png' %}" alt="instagram-logo" width="40px" height="40px"></a>
+    </div>
+
+    <p class="m-0 p-0">Copyright page design <i class="fa fa-copyright" aria-hidden="true"></i> 2022 poojadl02</p>
+
+  </div>
+
+</body>
+
+</html>

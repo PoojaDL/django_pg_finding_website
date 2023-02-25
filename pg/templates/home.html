@@ -1,0 +1,231 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>FeelHome</title>
+  <link rel="stylesheet" href="{% static 'css/home.css' %}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- navbar section  -->
+  <div class="container-fluid " style="position:fixed">
+    <div class="row">
+      <div class="col-md-12 p-0">
+        <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+          <div class="container-fluid">
+            <div class="brand-name">
+              <a href="{% url 'home' %}" class="navbar-brand "><h1 class="px-2"style="display:inline-block; ">FeelHome</h1></a>
+
+           </div>
+            <div class="">
+              <ul class="navbar-nav ">
+                <li class="navbarItems nav-item"><a href="{% url 'cities' %}" class="nav-link">Find PG</a></li>
+                <li class="navbarItems nav-item"><a href="{% url 'pgOwner' %}" class="nav-link ">PG Owner</a></li>
+                <li class="navbarItems nav-item"><a href="{% url 'about' %}" class="nav-link ">About Us</a></li>
+                <li class="navbarItems nav-item"><a href="{% url 'login' %}" class="nav-link">login</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!-- main part-->
+  <div class="pt-5">
+    <div class="header row w-100 m-0 pt-5" style="height:550px;">
+      <div class="header-heading col-md-6 p-5 ">
+        <h1 class="heading">Welcome to <br>FeelHome,<br>Find your safety <br>environment <br>with us </h1>
+      </div>
+      <div class="header-image col-md-6 p-2">
+        <img src="{% static 'image/home/main.png' %}" alt="main-image" width="600px" height="500px">
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- About Us section-->
+  <div class="about-section container px-5">
+    <div class="about-header px-5">
+      <h1 align="center">About Us</h1>
+    </div>
+    <div class="about-para px-5 pb-5">
+      <p>Lorem ipsum Etiam, pellentesque porttitor iaculis mi nisi. Sociis habitasse nibh semper fringilla rutrum cubilia dis rutrum fames. Magna facilisis laoreet tristique cum iaculis rhoncus eleifend feugiat velit posuere. Montes adipiscing magna
+        consequat montes ipsum scelerisque potenti justo non semper. Sem potenti lobortis maecenas in ligula hendrerit platea ipsum. Dapibus urna arcu aenean facilisi laoreet felis taciti id orci. Molestie; enim faucibus penatibus platea ac conubia
+        mus. Nibh, id viverra leo phasellus turpis suspendisse inceptos laoreet. Tincidunt eros gravida hendrerit justo ullamcorper. Dignissim mollis magna id, mi mauris in volutpat eros.</p>
+    </div>
+  </div>
+
+  <!-- Provider section-->
+
+  <div class="provider-box container-fluid p-5 pt-0 mt-5" style="background-color:#778A35">
+    <div align="center">
+
+      <div class="col-md-12">
+        <h1>What we Provide!</h1>
+      </div>
+
+
+      <div class="row ">
+
+        <div class="col-md-3 my-2">
+          <div class="img-thumbnail">
+            <img src="{% static 'image/home/easy.jpg' %}" alt="easy-finding" width="100%" height="300px">
+            <h3 class="text-center">Easy Finding</h3>
+            <p> you'll be more likely to find a home like PG in your market and can find a place you like, it's all too easy to get</p>
+          </div>
+
+        </div>
+        <div class="col-md-3 my-2">
+          <div class="img-thumbnail">
+            <br>
+            <img src="{% static 'image/home/no-fee.png' %}" alt="" width="80%" height="228px">
+            <br><br><br>
+            <h3 class="text-center">No Brokerage</h3>
+            <p>Search with us for PG without Broker. Find Useful And Attractive Results.
+              <br><br>
+            </p>
+          </div>
+
+        </div>
+        <div class="col-md-3 my-2">
+          <div class="img-thumbnail">
+            <img src="{% static 'image/home/best.jpg' %}" alt="" width="100%" height="300px">
+            <h3 class="text-center">Best Facilities</h3>
+            <p>Finding a property which is located at the center of everything is not easy but getting one which is close is possible.</p>
+          </div>
+
+        </div>
+        <div class="col-md-3 my-2">
+          <div class="img-thumbnail">
+            <img src="{% static 'image/home/safety.png' %}" alt="" width="100%" height="300px">
+            <h3 class="text-center">Safety</h3>
+            <p>We researched and found you the safety PG systems when it comes to service, pricing, and even more.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- process section-->
+  <div id="anime" class="process-section container">
+    <h1 align="center">Easy Process</h1>
+    <div class="process-box row p-1">
+      <div class="process-image col-md-4">
+        <img src="{% static 'image/home/choose.png' %}" alt="" width="250px" height="250px">
+      </div>
+      <div class="process-desc col-md-8">
+        <h3>Choose PG</h3>
+        <p>Lorem ipsum Etiam, pellentesque porttitor iaculis mi nisi. Sociis habitasse nibh semper fringilla rutrum cubilia dis rutrum fames.</p>
+      </div>
+    </div>
+    <div class="process-box row p-1">
+      <div class="process-desc col-md-9">
+        <h3>Confirm & Pay</h3>
+        <p>Lorem ipsum Etiam, pellentesque porttitor iaculis mi nisi. Sociis habitasse nibh semper fringilla rutrum cubilia dis rutrum fames.</p>
+      </div>
+      <div class="process-image col-md-3">
+        <img src="{% static 'image/home/customer.png' %}" alt="" width="250px" height="250px">
+      </div>
+    </div>
+    <div class="process-box row p-1">
+      <div class="process-image col-md-4">
+        <img src="{% static 'image/home/stayhome.png' %}" alt="" width="250px" height="250px">
+      </div>
+      <div class="process-desc col-md-8">
+        <h3>Stay Safe</h3>
+        <p>Lorem ipsum Etiam, pellentesque porttitor iaculis mi nisi. Sociis habitasse nibh semper fringilla rutrum cubilia dis rutrum fames.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- location carousel-->
+  <div class="location-section mt-5 pb-5" style="background-color:#3D550C">
+    <div class="container-fluid">
+      <div class="location-heading">
+        <h1  align="center">Find Anywhere</h1>
+      </div>
+      <!-- City section  -->
+      <div class="container">
+        <div class="city-section ">
+        </div>
+        <div class="row pb-3">
+
+          <div class="col-md-3 my-2">
+            <div class="img-thumbnail">
+              <img src="{% static 'image/home/mysoreLogo.jpg' %}" alt="mysore-Logo" width="100%" height="200px">
+              <h4 class="text-center">Mysore</h4>
+            </div>
+
+          </div>
+          <div class="col-md-3 my-2">
+            <div class="img-thumbnail">
+              <img src="{% static 'image/home/bangaloreLogo.jpg' %}" alt="bangalore-Logo" width="100%" height="200px">
+              <h4 class="text-center">Bangalore</h4>
+            </div>
+
+          </div>
+          <div class="col-md-3 my-2">
+            <div class="img-thumbnail">
+              <img src="{% static 'image/home/hassanLogo.jpg' %}" alt="hassan-Logo" width="100%" height="200px">
+              <h4 class="text-center">Hassan</h4>
+            </div>
+
+          </div>
+          <div class="col-md-3 my-2">
+            <div class="img-thumbnail">
+              <img src="{% static 'image/home/mangalore.jpg' %}" alt="mangalore-logo" width="100%" height="200px">
+              <h4 class="text-center">Mangalore</h4>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer section-->
+  <div class=" footer-section container-fluid px-5 pt-5 pb-0" >
+    <div class="m-0 p-0 contact-box">
+      <h3>For more Info</h3>
+
+      <h5>Contact Me</h5>
+      <p><b>Pooja DL</b> </p>
+
+      <p>Mysore,Karnataka</p>
+      <p><b>poojadl2002@gmail.com</b></p>
+
+    </div>
+
+    <div class="logo-box ">
+      <h5>Let's connect with</h5>
+      <a href="https://www.linkedin.com/in/pooja-dl-23267a218/"><img class="logos" src="{% static 'image/logos/linkedin.png' %}" alt="linkedIn-logo" width="40px" height="40px"></a>
+      <a href=""><img class="logos" src="{% static 'image/logos/gmail.png' %}" alt="gmail-logo" width="40px" height="40px"></a>
+      <a href="https://github.com/PoojaDL"><img class="logos" src="{% static 'image/logos/github.png' %}" alt="github-logo" width="40px" height="40px"></a>
+      <a href="https://www.instagram.com/poojadl02/"><img class="logos" src="{% static 'image/logos/instagram.png' %}" alt="instagram-logo" width="40px" height="40px"></a>
+    </div>
+
+    <p class="m-0 p-0">Copyright page design <i class="fa fa-copyright" aria-hidden="true"></i> 2022 poojadl02</p>
+
+  </div>
+</body>
+
+</html>
