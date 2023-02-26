@@ -1,5 +1,5 @@
 from distutils.command.upload import upload
-from msilib import MSIMODIFY_VALIDATE_DELETE
+# from msilib import MSIMODIFY_VALIDATE_DELETE
 from django.db import models
 
 class amenitie(models.Model):
