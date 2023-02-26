@@ -69,34 +69,6 @@ To access owner portal, you can login as selecting dropdown as `PG Owner`. And u
     <li>For to access admin panal without login use:`http://127.0.0.1:8000/admdash` </li>
 </ol>
 
-
-
-<h2>
-    Screenshots
-</h2>
-
-<h4 align="center">Home Page<h4>
-
-![Alt text](F:\pg pictures\home.jpeg)
-
-
-
-<h4 align="center">Admin Page<h4>
-
-![Alt text](https://twitter.com/PoojaDL2/status/1629751876261666816/photo/1)
-
-<h4 align="center">Login Page<h4>
-
-![Alt text](F:\pg pictures\login.jpeg)
-
-<h4 align="center">PG Details Page<h4>
-
-![Alt text](F:\pg pictures\pglook.jpeg)
-
-<h4 align="center">PG rating page<h4>
-
-![Alt text](C:\Users\admin\Pictures\Screenshots\Screenshot (480).png)
-
 <hr/>
 
 <h2>Contact Me</h2>
