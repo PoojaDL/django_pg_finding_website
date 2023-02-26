@@ -83,7 +83,7 @@ To access owner portal, you can login as selecting dropdown as `PG Owner`. And u
 
 <h4 align="center">Admin Page<h4>
 
-![Alt text](F:\pg pictures\pginfo.jpeg)
+![Alt text](https://twitter.com/PoojaDL2/status/1629751876261666816/photo/1)
 
 <h4 align="center">Login Page<h4>
 
